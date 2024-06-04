@@ -1,0 +1,85 @@
+﻿ifeq ($(TARGET), 1)
+OUT_TARGET = EcoSemaphore1Lab
+ifeq ($(DEBUG), 1)
+CONFIG_TARGET = StaticDebug
+CCFLAGS_TARGET = -Wall -O3 -g -DECO_LIB
+LDFLAGS_TARGET =
+else
+CONFIG_TARGET = StaticRelease
+CCFLAGS_TARGET = -O3 -DECO_LIB
+LDFLAGS_TARGET =
+endif
+else
+OUT_TARGET = EcoSemaphore1Lab
+ifeq ($(DEBUG), 1)
+CONFIG_TARGET = DynamicDebug
+CCFLAGS_TARGET = -Wall -O3 -g -DECO_DLL
+LDFLAGS_TARGET = 
+else
+CONFIG_TARGET = DynamicRelease
+CCFLAGS_TARGET = -O3 -DECO_DLL
+LDFLAGS_TARGET = 
+endif
+endif
+
+# source files.
+SRC = \
+../../../UnitTestFiles/SourceFiles/EcoSemaphore1Lab.c
+
+
+# include directories
+INCLUDES = \
+-I ../../../HeaderFiles \
+-I ../../../SharedFiles \
+-I ../../../UnitTestFiles/HeaderFiles \
+-I ../../../../Eco.Core1/SharedFiles \
+-I ../../../../Eco.InterfaceBus1/SharedFiles \
+-I ../../../../Eco.FileSystemManagement1/SharedFiles \
+-I ../../../../Eco.MemoryManager1/SharedFiles
+
+# libraries directories
+LIB_DIR = \
+-L ../../../BuildFiles/Linux/x64/$(CONFIG_TARGET) \
+-L ../../../../Eco.InterfaceBus1/BuildFiles/Linux/x64/StaticRelease \
+-L ../../../../Eco.FileSystemManagement1/BuildFiles/Linux/x64/StaticRelease \
+-L ../../../../Eco.MemoryManager1/BuildFiles/Linux/x64/StaticRelease \
+-L ../../../../Eco.System1/BuildFiles/Linux/x64/StaticRelease
+
+OBJ = $(SRC:.c=.o)
+
+OUT = $(OUT_TARGET)
+OUT_DIR = ../../../BuildFiles/Linux/x64/$(CONFIG_TARGET)
+
+# C++ compiler flags (-g -O2 -Wall)
+CCFLAGS = $(CCFLAGS_TARGET) -DLINUX -DUGUID_UTILITY -DECO_LINUX 
+
+# compiler
+GNU =
+CC = gcc
+AR = gcc-ar
+
+ifeq ($(TARGET), 1)
+LIBS_TARGET=-l0741985B8FD0476C867CAE177CD26E7C
+else
+LIBS_TARGET=
+endif
+
+# library paths
+LIBS = $(LIB_DIR) -lX11 -lm -lc -lgcc -ldl -l00000000000000000000000000000100 -l00000000000000000000000042757331 -l0000000000000000000000004D656D31 -l00000000000000000000000046534D31 $(LIBS_TARGET) -lGL -LGLX
+
+# compile flags
+LDFLAGS = $(LDFLAGS_TARGET) $(LIBS)
+
+.SUFFIXES: .c
+
+.c.o:
+	$(CC) $(INCLUDES) $(CCFLAGS) -c $< -o $@
+
+$(OUT): $(OBJ)
+	mkdir -p $(OUT_DIR)
+	$(CC) ${LDFLAGS} -o $(OUT_DIR)/$(OUT) $(OBJ) $(LDFLAGS)
+	rm $(OBJ)
+
+clean:
+	rm $(OBJ) $(OUT_DIR)/$(OUT)
+

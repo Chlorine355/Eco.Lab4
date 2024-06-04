@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eco.Semaphore1LabUnitTest", "Eco.Semaphore1LabUnitTest.vcxproj", "{78C541F7-3239-4BBC-BB39-69404B960DA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		StaticDebug|Tegra-Android = StaticDebug|Tegra-Android
+		StaticRelease|Tegra-Android = StaticRelease|Tegra-Android
+		StaticShipping|Tegra-Android = StaticShipping|Tegra-Android
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78C541F7-3239-4BBC-BB39-69404B960DA5}.StaticDebug|Tegra-Android.ActiveCfg = StaticDebug|Tegra-Android
+		{78C541F7-3239-4BBC-BB39-69404B960DA5}.StaticDebug|Tegra-Android.Build.0 = StaticDebug|Tegra-Android
+		{78C541F7-3239-4BBC-BB39-69404B960DA5}.StaticRelease|Tegra-Android.ActiveCfg = StaticRelease|Tegra-Android
+		{78C541F7-3239-4BBC-BB39-69404B960DA5}.StaticRelease|Tegra-Android.Build.0 = StaticRelease|Tegra-Android
+		{78C541F7-3239-4BBC-BB39-69404B960DA5}.StaticShipping|Tegra-Android.ActiveCfg = StaticShipping|Tegra-Android
+		{78C541F7-3239-4BBC-BB39-69404B960DA5}.StaticShipping|Tegra-Android.Build.0 = StaticShipping|Tegra-Android
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

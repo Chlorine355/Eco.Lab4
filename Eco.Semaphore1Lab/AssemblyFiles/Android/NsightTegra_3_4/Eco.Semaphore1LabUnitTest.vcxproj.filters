@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="jni">
+      <UniqueIdentifier>70995d32-dbaf-4599-b813-d3bd5e7e8169</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>d9256ed8-26db-472e-9078-e5f3299b19a6</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\values">
+      <UniqueIdentifier>eb76c2c6-5116-4a66-819a-b9f8502c7447</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eco.Framework">
+      <UniqueIdentifier>{f57733af-4ad3-473e-ac1b-e91680b2153d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eco.Framework\Eco.Semaphore1Lab">
+      <UniqueIdentifier>{7c0fde69-bc77-481a-8ba3-6be0ccb0cc96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eco.Framework\Eco.Semaphore1Lab\AssemblyFiles">
+      <UniqueIdentifier>{f23db475-ba2b-4735-a5c6-2b69b82b38bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eco.Framework\Eco.Semaphore1Lab\AssemblyFiles\Android">
+      <UniqueIdentifier>{805d6110-6302-41c5-b15c-74ff6b0cb94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eco.Framework\Eco.Semaphore1Lab\AssemblyFiles\Android\Eco.Semaphore1LabUnitTest">
+      <UniqueIdentifier>{03ed6200-79e8-4277-8bb5-f6afd355e351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ab8c3a5a-65ae-4887-9a3a-b0853d9a427d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidBuild Include="AndroidManifest.xml" />
+    <AndroidBuild Include="res\values\strings.xml">
+      <Filter>res\values</Filter>
+    </AndroidBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\UnitTestFiles\SourceFiles\EcoSemaphore1Lab.c">
+      <Filter>jni</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\UnitTestFiles\HeaderFiles\android_native_app_glue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

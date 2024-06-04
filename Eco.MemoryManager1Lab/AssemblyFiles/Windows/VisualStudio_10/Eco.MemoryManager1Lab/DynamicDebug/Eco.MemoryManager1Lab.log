@@ -1,0 +1,12 @@
+﻿  CEcoMemoryManager1LabFactory.c
+  CEcoMemoryManager1Lab.c
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemorymanager1lab.c(318): error C2039: 'm_pIProperty' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemorymanager1lab.c(319): error C2065: 'CID_EcoIPCCMailbox1' : undeclared identifier
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemorymanager1lab.c(319): warning C4133: 'function' : incompatible types - from 'int *' to 'const UGUID *'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemorymanager1lab.c(319): error C2065: 'IID_IEcoIPCCMailbox1' : undeclared identifier
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemorymanager1lab.c(319): warning C4133: 'function' : incompatible types - from 'int *' to 'const UGUID *'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemorymanager1lab.c(319): error C2039: 'm_pIProperty' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemorymanager1lab.c(319): error C2198: 'function through pointer' : too few arguments for call
+  Generating Code...

@@ -1,0 +1,34 @@
+﻿  CEcoMemoryAllocator1Lab.c
+..\..\..\SourceFiles\CEcoMemoryAllocator1Lab.c(148): warning C4098: 'CEcoMemoryAllocator1Lab_623E1838_Free' : 'void' function returning a value
+  CEcoMemoryManager1Lab.c
+..\..\..\SourceFiles\CEcoMemoryManager1Lab.c(318): error C2039: 'm_pIProperty' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          C:\Users\akimo\Downloads\Eco.Lab4\Eco.Lab4\Eco.MemoryManager1Lab\HeaderFiles\CEcoMemoryManager1Lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+..\..\..\SourceFiles\CEcoMemoryManager1Lab.c(319): error C2065: 'CID_EcoIPCCMailbox1' : undeclared identifier
+..\..\..\SourceFiles\CEcoMemoryManager1Lab.c(319): warning C4133: 'function' : incompatible types - from 'int *' to 'const UGUID *'
+..\..\..\SourceFiles\CEcoMemoryManager1Lab.c(319): error C2065: 'IID_IEcoIPCCMailbox1' : undeclared identifier
+..\..\..\SourceFiles\CEcoMemoryManager1Lab.c(319): warning C4133: 'function' : incompatible types - from 'int *' to 'const UGUID *'
+..\..\..\SourceFiles\CEcoMemoryManager1Lab.c(319): error C2039: 'm_pIProperty' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          C:\Users\akimo\Downloads\Eco.Lab4\Eco.Lab4\Eco.MemoryManager1Lab\HeaderFiles\CEcoMemoryManager1Lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+..\..\..\SourceFiles\CEcoMemoryManager1Lab.c(319): error C2198: 'function through pointer' : too few arguments for call
+  CEcoMemoryManager1LabFactory.c
+  CEcoVirtualMemory1Lab.c
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(154): error C2039: 'm_pIProperty' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          C:\Users\akimo\Downloads\Eco.Lab4\Eco.Lab4\Eco.MemoryManager1Lab\HeaderFiles\CEcoMemoryManager1Lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(154): error C2039: 'm_pIProperty' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          C:\Users\akimo\Downloads\Eco.Lab4\Eco.Lab4\Eco.MemoryManager1Lab\HeaderFiles\CEcoMemoryManager1Lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(154): error C2065: 'MB_CHANNEL_ARM_PROPERTY_ARM' : undeclared identifier
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(154): error C2065: 'MB_CHANNEL_PROPERTY_ARM_GET_VC_MEMORY' : undeclared identifier
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(156): error C2065: 'asm' : undeclared identifier
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(156): error C2143: syntax error : missing ';' before 'volatile'
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(176): error C2143: syntax error : missing '{' before '__stdcall'
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(190): warning C4244: 'return' : conversion from 'uint64_t' to 'int', possible loss of data
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(297): error C2059: syntax error : 'bad suffix on number'
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(297): error C2146: syntax error : missing ')' before identifier 'b111111'
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(297): error C2059: syntax error : ')'
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(299): error C2059: syntax error : 'bad suffix on number'
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(299): error C2146: syntax error : missing ')' before identifier 'b111100'
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(299): error C2059: syntax error : 'bad suffix on number'
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(301): error C2065: 'page' : undeclared identifier
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(304): error C2065: 'page' : undeclared identifier
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(307): error C2059: syntax error : 'return'
+..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c(308): error C2059: syntax error : '}'

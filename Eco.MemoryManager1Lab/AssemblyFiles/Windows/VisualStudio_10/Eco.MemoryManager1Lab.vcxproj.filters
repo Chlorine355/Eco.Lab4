@@ -43,5 +43,11 @@
     <ClCompile Include="..\..\..\SourceFiles\CEcoMemoryManager1LabFactory.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\SourceFiles\CEcoMemoryAllocator1Lab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -173,8 +173,10 @@
     <ClInclude Include="..\..\..\SharedFiles\IEcoVirtualMemory1.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\SourceFiles\CEcoMemoryAllocator1Lab.c" />
     <ClCompile Include="..\..\..\SourceFiles\CEcoMemoryManager1Lab.c" />
     <ClCompile Include="..\..\..\SourceFiles\CEcoMemoryManager1LabFactory.c" />
+    <ClCompile Include="..\..\..\SourceFiles\CEcoVirtualMemory1Lab.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,4 +1,24 @@
-﻿  CEcoMemoryManager1LabFactory.c
+﻿  CEcoVirtualMemory1Lab.c
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(154): error C2039: 'm_pIProperty' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(154): error C2039: 'm_pIProperty' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(154): error C2065: 'MB_CHANNEL_ARM_PROPERTY_ARM' : undeclared identifier
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(154): error C2065: 'MB_CHANNEL_PROPERTY_ARM_GET_VC_MEMORY' : undeclared identifier
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(156): error C2065: 'asm' : undeclared identifier
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(156): error C2143: syntax error : missing ';' before 'volatile'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(176): error C2143: syntax error : missing '{' before '__stdcall'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(190): warning C4244: 'return' : conversion from 'uint64_t' to 'int', possible loss of data
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(297): error C2059: syntax error : 'bad suffix on number'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(297): error C2146: syntax error : missing ')' before identifier 'b111111'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(297): error C2059: syntax error : ')'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(299): error C2059: syntax error : 'bad suffix on number'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(299): error C2146: syntax error : missing ')' before identifier 'b111100'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(299): error C2059: syntax error : 'bad suffix on number'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(301): error C2065: 'page' : undeclared identifier
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(304): error C2065: 'page' : undeclared identifier
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(307): error C2059: syntax error : 'return'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecovirtualmemory1lab.c(308): error C2059: syntax error : '}'
   CEcoMemoryManager1Lab.c
 c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemorymanager1lab.c(318): error C2039: 'm_pIProperty' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
           c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
@@ -9,4 +29,60 @@ c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cec
 c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemorymanager1lab.c(319): error C2039: 'm_pIProperty' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
           c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
 c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemorymanager1lab.c(319): error C2198: 'function through pointer' : too few arguments for call
+  CEcoMemoryAllocator1Lab.c
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(23): error C2143: syntax error : missing '{' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(23): error C2143: syntax error : missing ')' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(23): error C2143: syntax error : missing '{' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(23): warning C4142: benign redefinition of type
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(23): error C2370: 'size_t' : redefinition; different storage class
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h(29) : see declaration of 'size_t'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(23): error C2146: syntax error : missing ';' before identifier 'count'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(23): error C2059: syntax error : ')'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(23): error C2054: expected '(' to follow 'count'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(35): error C2143: syntax error : missing ')' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(35): error C2143: syntax error : missing '{' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(35): error C2371: 'char_t' : redefinition; different basic types
+          c:\users\akimo\downloads\проектирование архитектуры\eco.framework\eco.core1\sharedfiles\depend.h(152) : see declaration of 'char_t'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(35): error C2143: syntax error : missing ';' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(35): warning C4142: benign redefinition of type
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(35): error C2370: 'size_t' : redefinition; different storage class
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h(29) : see declaration of 'size_t'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(35): error C2146: syntax error : missing ';' before identifier 'size'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(35): error C2143: syntax error : missing ';' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(35): error C2143: syntax error : missing ';' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(35): error C2059: syntax error : ')'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(35): error C2054: expected '(' to follow 'next'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(45): error C2143: syntax error : missing ')' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(45): error C2081: 'LabMemoryBlock' : name in formal parameter list illegal
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(45): error C2143: syntax error : missing '{' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(46): error C2143: syntax error : missing ';' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(47): error C2143: syntax error : missing ';' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(48): warning C4142: benign redefinition of type
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(48): error C2370: 'size_t' : redefinition; different storage class
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h(29) : see declaration of 'size_t'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(48): error C2146: syntax error : missing ';' before identifier 'blockCount'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(49): error C2059: syntax error : 'type'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(51): error C2059: syntax error : ')'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(123): error C2143: syntax error : missing ')' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(123): error C2081: 'LabMemoryBlock' : name in formal parameter list illegal
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(123): error C2143: syntax error : missing '{' before '*'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(123): error C2059: syntax error : ')'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(123): error C2054: expected '(' to follow 'listStartPtr'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(260): warning C4013: 'allocBlock' undefined; assuming extern returning int
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(260): error C2039: 'lastAllocated' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(260): error C2039: 'listStart' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(260): error C2039: 'reservedStart' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(260): error C2039: 'reservedBlockCount' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(260): error C2039: 'heapStart' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(260): error C2039: 'heapEnd' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(260): warning C4047: 'return' : 'void *' differs in levels of indirection from 'int'
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(277): warning C4013: 'freeBlock' undefined; assuming extern returning int
+c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\sourcefiles\cecomemoryallocator1lab.c(277): error C2039: 'listStart' : is not a member of 'CEcoMemoryManager1Lab_623E1838'
+          c:\users\akimo\downloads\eco.lab4\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(29) : see declaration of 'CEcoMemoryManager1Lab_623E1838'
   Generating Code...

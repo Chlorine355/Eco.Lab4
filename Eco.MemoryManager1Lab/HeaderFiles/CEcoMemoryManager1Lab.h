@@ -26,6 +26,14 @@
 #include "IEcoVirtualMemory1.h"
 
 
+typedef struct memory_block_struct {
+	char_t *start_ptr;
+    char_t *end_ptr;
+    bool_t allocated;
+	struct memory_block_struct *next;
+	struct memory_block_struct *prev;
+} MemBlock;
+
 typedef struct CEcoMemoryManager1Lab_623E1838 {
 
     /* Таблица функций интерфейса IEcoMemoryManager1 */
@@ -53,7 +61,6 @@ typedef struct CEcoMemoryManager1Lab_623E1838 {
     IEcoMemoryManager1* m_pIMemMgr;
     IEcoMemoryAllocator1* m_pIMem;
 
-
     /* Данные экземпляра */
     uint32_t m_iBlockNum;
     uint32_t m_iHeapSize;
@@ -62,6 +69,13 @@ typedef struct CEcoMemoryManager1Lab_623E1838 {
     char_t* m_pHeapBreak;
     char_t* m_pHeapEnd;
     uint8_t m_mutex;
+
+	char_t* heapStart;
+	char_t* heapEnd;
+	MemBlock *listStart;
+	MemBlock *lastAllocated;
+	MemBlock *reservedStart;
+	size_t reservedBlockCount;
 
 } CEcoMemoryManager1Lab_623E1838, *CEcoMemoryManager1Lab_623E1838Ptr;
 

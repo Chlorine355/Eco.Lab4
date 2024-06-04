@@ -1,3 +1,0 @@
-﻿rem "%ECO_TOOLCHAIN%\avrdude-6.3\avrdude.exe" -C "%ECO_TOOLCHAIN%\avrdude-6.3\avrdude.conf" -v -p atmega328p -c arduino -P \\.\COM9 -b 115200 -D -U flash:w:..\..\..\BuildFiles\AVR8\StaticDebug\Eco.Semaphore1LabUnitTest.hex:i
-"%ECO_TOOLCHAIN%\avrdude-6.3\avrdude.exe" -C "%ECO_TOOLCHAIN%\avrdude-6.3\avrdude.conf" -v -p atmega2560 -c wiring -P \\.\COM9 -b 115200 -D -U flash:w:..\..\..\BuildFiles\AVR8\StaticDebug\Eco.Semaphore1LabUnitTest.hex:i
-pause
